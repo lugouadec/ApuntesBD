@@ -60,6 +60,8 @@ mysql -u your_username --password=your_password your_db_name < db_backup_your_db
 ~~~
 mysql --user=TUUSUARIO --password=TUPASSWORD < nombrebackup-`date +%Y%m%d_%H%M%S`.sql
 ~~~
+
+# Otro Ejemplo
 ~~~
 mysqldump --user=TUUSUARIO --password=TUPASSWORD --skip-opt NOMBREBD > nombrebackup-`date +%Y%m%d_%H%M%S`.sql
 
