@@ -1,7 +1,5 @@
 # Sintaxis Respaldo de la Estructura y los Datos de la  Base de Datos 
-~~~
-mysqldump -v --opt --events --routines --triggers --default-character-set=utf8 -u your_username -p -h ip your_db_name > db_backup_your_db_name_`date +%Y%m%d_%H%M%S`.sql 
-~~~
+    mysqldump -v --opt --events --routines --triggers --default-character-set=utf8 -u your_username -p -h ip your_db_name > db_backup_your_db_name_`date +%Y%m%d_%H%M%S`.sql ` 
 # Ejemplo
 ~~~
 mysqldump -v --opt --events --routines --triggers --default-character-set=utf8 -u root -p -h 192.168.1.43 empresa > empresa_db_`date +%Y%m%d_%H%M%S`.sql 
