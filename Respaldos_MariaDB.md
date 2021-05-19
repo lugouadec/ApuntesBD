@@ -15,7 +15,7 @@ mysqldump -v --opt --no-data --default-character-set=utf8 -u root -p -h 192.168.
 
 # Sintaxis Respaldo Solo de los Datos de una Base de Datos
 ~~~
-msqldump -v --opt --no-create-info --skip-triggers --default-character-set=utf8 -u your_username -p -h ip your_db_name > db_data_your_db_name_`date +%Y%m%d_%H%M%S`.sql
+mysqldump -v --opt --no-create-info --skip-triggers --default-character-set=utf8 -u your_username -p -h ip your_db_name > db_data_your_db_name_`date +%Y%m%d_%H%M%S`.sql
 ~~~
 # Ejemplo
 ~~~
